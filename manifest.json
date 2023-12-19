@@ -1,6 +1,6 @@
 {
-  "short_name": "TANSACS Recruitment Portal",
-  "name": "Job Portal for TANSACS / NATO / TSU ",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
