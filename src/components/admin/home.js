@@ -89,7 +89,7 @@ function AdminHome(props) {
                     <div className="lg:col-span-1 col-span-3">
                         <div className='w-full mb-10'>
                             <Link to={'CPM'} className="p-0 truncate px-3 block group relative  w-full overflow-hidden rounded-xl bg-custom-red text-lg font-semibold text-white">
-                                Cluster Programme Manager (CPM) - 7 Posts
+                                Cluster Programme Manager (CSO) - 7 Posts
                                 <div className="absolute inset-0 h-full w-full scale-0 rounded-lg transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
 
                             </Link>
@@ -113,7 +113,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'CPM')?.applicants_count || 0}
@@ -154,7 +154,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'DD_SI')?.applicants_count || 0}
@@ -196,7 +196,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'DD_LS')?.applicants_count || 0}
@@ -238,7 +238,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'CSO')?.applicants_count || 0}
@@ -280,7 +280,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'AD_ICTC')?.applicants_count || 0}
@@ -322,7 +322,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'AD_IEC')?.applicants_count || 0}
@@ -340,7 +340,7 @@ function AdminHome(props) {
                     <div className="lg:col-span-1 col-span-3">
                         <div className='w-full mb-10'>
                             <Link to={'DMDO'} className="p-0 truncate px-3 block group relative  w-full overflow-hidden rounded-xl bg-custom-red text-lg font-semibold text-white">
-                                Data Monitoring and Documentation Officer r (DMDO)
+                                Data Monitoring and Documentation Officer (DMDO)
                                 <div className="absolute inset-0 h-full w-full scale-0 rounded-lg transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
 
                             </Link>
@@ -365,7 +365,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'DMDO')?.applicants_count || 0}
@@ -407,7 +407,7 @@ function AdminHome(props) {
                                 <tbody>
                                     <tr>
                                         <th className="border border-solid border-black align-middle  text-xs whitespace-nowrap  p-4  ">
-                                           APPLICATIONS RECEIVED
+                                            APPLICATIONS RECEIVED
                                         </th>
                                         <td className="border border-solid border-black align-middle  text-xs whitespace-nowrap p-4 ">
                                             {data.data.find(position => position.abbreviation === 'AD_TI')?.applicants_count || 0}
