@@ -16,7 +16,7 @@ function AdminHome(props) {
 
     async function LogoutUser() {
         try {
-            const response = await axios.post('https://flynet.systems/logout', {
+            const response = await axios.post('https://backend.tnsacsrecruitment.in/logout', {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `token ${props.token}`

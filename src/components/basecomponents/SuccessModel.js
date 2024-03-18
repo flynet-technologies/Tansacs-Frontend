@@ -16,7 +16,7 @@ const SuccessModal = (props) => {
 
   const handleDownload = async (productId) => {
     try {
-      const response = await axios.get(`https://flynet.systems/jobs/download/${productId}`, {
+      const response = await axios.get(`https://backend.tnsacsrecruitment.in/jobs/download/${productId}`, {
         responseType: 'blob',  // Important for handling PDF download
       });
       console.log("success");

@@ -4,7 +4,7 @@ import axios from 'axios';
 function DownloadButton(props) {
   const handleDownload = () => {
     axios({
-      url: `https://flynet.systems/download_file/${props.file_name}`,
+      url: `https://backend.tnsacsrecruitment.in/download_file/${props.file_name}`,
       method: 'GET',
       responseType: 'blob', // Important for handling the binary data
     })

@@ -4,7 +4,7 @@ import axios from 'axios';
 function DownloadNOCButton() {
     const handleDownload = () => {
         axios({
-            url: 'https://flynet.systems/download_file/NOCForm.pdf',
+            url: 'https://backend.tnsacsrecruitment.in/download_file/NOCForm.pdf',
             method: 'GET',
             responseType: 'blob', // Important
         })

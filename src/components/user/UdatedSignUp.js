@@ -107,7 +107,7 @@ const districtOptions = [
 ]
 
 async function signUpUser(values) {
-    const response = await  axios.post('https://flynet.systems/signup', values,  {
+    const response = await  axios.post('https://backend.tnsacsrecruitment.in/signup', values,  {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

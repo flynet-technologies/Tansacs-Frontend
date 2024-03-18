@@ -51,7 +51,7 @@ function ResetPassword(props) {
 
     async function resetUser(values) {
         try {
-            const response = await axios.post(`https://flynet.systems/setpassword_user/${props.email}`, values);
+            const response = await axios.post(`https://backend.tnsacsrecruitment.in/setpassword_user/${props.email}`, values);
             return response.data;
 
         } catch (error) {

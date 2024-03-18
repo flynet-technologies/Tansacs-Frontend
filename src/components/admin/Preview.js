@@ -81,7 +81,7 @@ function Preview(props) {
 
   const handleDownloadadmin = async (id, filename) => {
     try {
-      const response = await axios.get(`https://flynet.systems/jobs/admin_download/${id}`, {
+      const response = await axios.get(`https://backend.tnsacsrecruitment.in/jobs/admin_download/${id}`, {
         responseType: 'blob',  // Important for handling PDF download
       });
       // console.log("success");

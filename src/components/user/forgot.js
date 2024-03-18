@@ -39,7 +39,7 @@ function ForgotPassword(props) {
 
     async function forgotUser(values) {
 
-        const response = await axios.post('https://flynet.systems/forgot', values);
+        const response = await axios.post('https://backend.tnsacsrecruitment.in/forgot', values);
         return response.data;
 
     }

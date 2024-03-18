@@ -36,7 +36,7 @@ function CommonForm
 
     async function ApplicationForm(values) {
 
-        const response = await axios.post('https://flynet.systems/jobs/job', values, {
+        const response = await axios.post('https://backend.tnsacsrecruitment.in/jobs/job', values, {
             headers: {
                 'Content-Type': 'multipart/form-data',
                 'Authorization': `token ${props.token}`

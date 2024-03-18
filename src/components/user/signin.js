@@ -28,7 +28,7 @@ const validationSchema = Yup.object({
 })
 
 async function loginUser(values) {
-    const response = await axios.post('https://flynet.systems/login', values);
+    const response = await axios.post('https://backend.tnsacsrecruitment.in/login', values);
     return response.data;
 }
 

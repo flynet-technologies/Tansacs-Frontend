@@ -208,7 +208,7 @@ function Signup(props) {
     const mutation = useMutation(signUpUser)
 
     async function signUpUser(values) {
-        const response = await axios.post('https://flynet.systems/signup', values, {
+        const response = await axios.post('https://backend.tnsacsrecruitment.in/signup', values, {
             headers: {
 
                 'Content-Type': 'application/json'
@@ -231,7 +231,7 @@ function Signup(props) {
 
                 const formData = new FormData();
                 formData.append('profile_image', values.profile_image);
-                axios.patch(`https://flynet.systems/profile/${id}`, formData, {
+                axios.patch(`https://backend.tnsacsrecruitment.in/profile/${id}`, formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data'
                     },

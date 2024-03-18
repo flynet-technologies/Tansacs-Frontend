@@ -1,4 +1,4 @@
 
 
 
-export const USER_DETAIL= ()=> `https://flynet.systems/get_detail`
+export const USER_DETAIL= ()=> `https://backend.tnsacsrecruitment.in/get_detail`

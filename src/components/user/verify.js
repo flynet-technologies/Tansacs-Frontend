@@ -53,7 +53,7 @@ function VerifyOTP(props) {
 
     async function loginUser(values) {
         try {
-            const response = await axios.post('https://flynet.systems/verified', values);
+            const response = await axios.post('https://backend.tnsacsrecruitment.in/verified', values);
             return response.data;
 
         } catch (error) {
@@ -69,7 +69,7 @@ function VerifyOTP(props) {
             const formData = new FormData();
             formData.append('email', props.email);
 
-            const response = await axios.post('https://flynet.systems/send-otp', formData);
+            const response = await axios.post('https://backend.tnsacsrecruitment.in/send-otp', formData);
             const receivedOTP = response.data.otp; // Extract OTP from response
             setOtps(receivedOTP);
         } catch (error) {
